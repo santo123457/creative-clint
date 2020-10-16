@@ -1,0 +1,8 @@
+.img-height {
+    height: 40px;
+}
+@media screen and (max-width: 920px) {
+   .row{
+       text-align: center;
+   }
+  }
