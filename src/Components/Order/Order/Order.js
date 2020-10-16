@@ -19,7 +19,13 @@ const Order = () => {
             body: JSON.stringify({email: loggedInUser.email})
         })
         .then(res=>res.json())
-         .then((data)=>setIsAdmin(data))
+         .then((data)=>{
+             console.log(data);
+             if(data.length ===1){
+                setIsAdmin(true)
+             }
+   
+         })
     },[])
 
 
@@ -57,7 +63,7 @@ const Order = () => {
                 console.log('Successfull', data);
             })
     };
-    
+    console.log(isAdmin);
     return (
         <div className="container-fluid">
             <div className="row mt-3 text-left">
