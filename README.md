@@ -1,3 +1,34 @@
+
+# Creative Agency
+## Overview
+ A full-stack app where you can hire creative agency to make or design your website. You can give feedback and pick your 
+ Orders. If you are an Admin you can handle Admin-panel.
+
+
+### Features of Creative Agency
+- Creative Agency web site is an agency site that have an authentication system.
+- An user can order service, set a price and can upload an image as a sample.
+- User can post reviews and see the reviews in home page.
+- User will be able to see their work progress through the status.
+- At first the status is "pending"
+- An admin can add services and make more admins.
+- Admin will be able to change the status of orders.
+### Technologies Used
+- React.js
+- Node.js
+- React Router
+- React Hook Form
+- MongoDB
+- Express.js
+- React Responsive carousel
+- Bootstrap
+- React Bootstrap
+- Material Ui
+- React Spring
+- Firebase auth
+- Heroku
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
